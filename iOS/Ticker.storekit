@@ -1,0 +1,29 @@
+{
+  "identifier" : "ticker",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "ticker_pro_unlock",
+      "localizations" : [
+        {
+          "description" : "Unlocks unlimited saved meetings and custom hourly rates per attendee",
+          "displayName" : "Ticker Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "ticker_pro_unlock",
+      "referenceName" : "Ticker Pro Unlock",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

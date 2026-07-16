@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D7828A494D19D4588F2B99 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0CECE00845162EE376002A /* Theme.swift */; };
+		72859B103109C745A3A42F85 /* TickerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AA1328E4F634DE2FC41AF /* TickerStore.swift */; };
+		7C1B3D652994EF0B914AD974 /* MeetingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2683EE96821827CF00F95A /* MeetingListView.swift */; };
+		85F87D589E0A2728F73DE5D6 /* TickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE41958B54F61E2D955534 /* TickerApp.swift */; };
+		8AFF3C67D290D7B870385375 /* TickerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D27E95891B8615F443E99 /* TickerModels.swift */; };
+		9B56F96EE7BF98D66FF7C1F7 /* TickerSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D976363843E8C5A03892981 /* TickerSheets.swift */; };
+		9F59D4867CFDD94F70D3151B /* TickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF6D9ED02BC68B5ECC35977 /* TickerTests.swift */; };
+		AA9BEC90B9A79E1E48E987DE /* Ticker.storekit in Resources */ = {isa = PBXBuildFile; fileRef = EB11D92C1301AC7A37B2A418 /* Ticker.storekit */; };
+		AAC0EAF37BA1B9496CC44ED6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2EA23F0A40F040E1A1CDA /* SettingsView.swift */; };
+		D00F373F9FD581C4CEC8CF11 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988AFBF88A5945423D484783 /* PurchaseManager.swift */; };
+		F40D26923619B00B1069AE7B /* TickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A153AD4EF5E4450034A53972 /* TickerUITests.swift */; };
+		FBE98AC442B9AC51D8357F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673BBEBD03F5A6673840E4C1 /* Assets.xcassets */; };
+		FBF1C4E172751F3301E8AAB7 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF5ACCFEE22187BD9FF70B /* PaywallView.swift */; };
+		FFC37931D48DA3AC5E191D92 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77C0E45E7573B85CE9E8D51 /* RootTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BCA58187B039D853A4A36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72639FAE940B1910E914C4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A4897054D6F5B363AAFAA7;
+			remoteInfo = Ticker;
+		};
+		D0BEC4173516E7BCD804AADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72639FAE940B1910E914C4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A4897054D6F5B363AAFAA7;
+			remoteInfo = Ticker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084F83A0B5BCEFA905326660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0F2683EE96821827CF00F95A /* MeetingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListView.swift; sourceTree = "<group>"; };
+		2BC53E2053DFCEDD2ED822A4 /* TickerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D976363843E8C5A03892981 /* TickerSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerSheets.swift; sourceTree = "<group>"; };
+		5EF6D9ED02BC68B5ECC35977 /* TickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerTests.swift; sourceTree = "<group>"; };
+		673BBEBD03F5A6673840E4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		680D27E95891B8615F443E99 /* TickerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerModels.swift; sourceTree = "<group>"; };
+		6C92E57803ED04C367DF94CB /* Ticker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Ticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		988AFBF88A5945423D484783 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		A153AD4EF5E4450034A53972 /* TickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerUITests.swift; sourceTree = "<group>"; };
+		A61AA1328E4F634DE2FC41AF /* TickerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerStore.swift; sourceTree = "<group>"; };
+		BF0CECE00845162EE376002A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C77C0E45E7573B85CE9E8D51 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		CDA2EA23F0A40F040E1A1CDA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DBFE41958B54F61E2D955534 /* TickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerApp.swift; sourceTree = "<group>"; };
+		E726A9B265DE83D56C4150F6 /* TickerUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB11D92C1301AC7A37B2A418 /* Ticker.storekit */ = {isa = PBXFileReference; path = Ticker.storekit; sourceTree = "<group>"; };
+		FDBF5ACCFEE22187BD9FF70B /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		097C92212E5A5C4F414E2F56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C92E57803ED04C367DF94CB /* Ticker.app */,
+				2BC53E2053DFCEDD2ED822A4 /* TickerTests.xctest */,
+				E726A9B265DE83D56C4150F6 /* TickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D76C238E5A0BDAE420D0FC /* TickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EF6D9ED02BC68B5ECC35977 /* TickerTests.swift */,
+			);
+			path = TickerTests;
+			sourceTree = "<group>";
+		};
+		B411F37FFC9F8FCB331DC86C = {
+			isa = PBXGroup;
+			children = (
+				F848F0B41D78E74589D51EA4 /* Ticker */,
+				25D76C238E5A0BDAE420D0FC /* TickerTests */,
+				F77AC58BE4954C3DBD7DE04D /* TickerUITests */,
+				EB11D92C1301AC7A37B2A418 /* Ticker.storekit */,
+				097C92212E5A5C4F414E2F56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77AC58BE4954C3DBD7DE04D /* TickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A153AD4EF5E4450034A53972 /* TickerUITests.swift */,
+			);
+			path = TickerUITests;
+			sourceTree = "<group>";
+		};
+		F848F0B41D78E74589D51EA4 /* Ticker */ = {
+			isa = PBXGroup;
+			children = (
+				673BBEBD03F5A6673840E4C1 /* Assets.xcassets */,
+				084F83A0B5BCEFA905326660 /* Info.plist */,
+				0F2683EE96821827CF00F95A /* MeetingListView.swift */,
+				FDBF5ACCFEE22187BD9FF70B /* PaywallView.swift */,
+				988AFBF88A5945423D484783 /* PurchaseManager.swift */,
+				C77C0E45E7573B85CE9E8D51 /* RootTabView.swift */,
+				CDA2EA23F0A40F040E1A1CDA /* SettingsView.swift */,
+				BF0CECE00845162EE376002A /* Theme.swift */,
+				DBFE41958B54F61E2D955534 /* TickerApp.swift */,
+				680D27E95891B8615F443E99 /* TickerModels.swift */,
+				4D976363843E8C5A03892981 /* TickerSheets.swift */,
+				A61AA1328E4F634DE2FC41AF /* TickerStore.swift */,
+			);
+			path = Ticker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A4897054D6F5B363AAFAA7 /* Ticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD55AC3D1AEA9AC857F24849 /* Build configuration list for PBXNativeTarget "Ticker" */;
+			buildPhases = (
+				84D499BE50EAD252A9FCC5B8 /* Sources */,
+				C2883BAAB6FA34252F4ED814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ticker;
+			packageProductDependencies = (
+			);
+			productName = Ticker;
+			productReference = 6C92E57803ED04C367DF94CB /* Ticker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55CA673FC2AE636864DAFAE6 /* TickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98E8BC2D4091490ED2F3F8F /* Build configuration list for PBXNativeTarget "TickerTests" */;
+			buildPhases = (
+				B95405E247B179F2FDBF6B22 /* Sources */,
+				C8218516D951F06056BCCB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA44B923433FFFEE86ED8DA /* PBXTargetDependency */,
+			);
+			name = TickerTests;
+			packageProductDependencies = (
+			);
+			productName = TickerTests;
+			productReference = 2BC53E2053DFCEDD2ED822A4 /* TickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DACDE145B1C60C0B30F35914 /* TickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E59AEFD9342E43E0F99F87E /* Build configuration list for PBXNativeTarget "TickerUITests" */;
+			buildPhases = (
+				0CF60D66D6783A8A087AAB28 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A547EB04CF4BE2D15517EC2B /* PBXTargetDependency */,
+			);
+			name = TickerUITests;
+			packageProductDependencies = (
+			);
+			productName = TickerUITests;
+			productReference = E726A9B265DE83D56C4150F6 /* TickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72639FAE940B1910E914C4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04A4897054D6F5B363AAFAA7 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					55CA673FC2AE636864DAFAE6 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					DACDE145B1C60C0B30F35914 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04A4897054D6F5B363AAFAA7;
+					};
+				};
+			};
+			buildConfigurationList = D3C63A8C80796F0DAEC4AA36 /* Build configuration list for PBXProject "Ticker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B411F37FFC9F8FCB331DC86C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 097C92212E5A5C4F414E2F56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A4897054D6F5B363AAFAA7 /* Ticker */,
+				55CA673FC2AE636864DAFAE6 /* TickerTests */,
+				DACDE145B1C60C0B30F35914 /* TickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2883BAAB6FA34252F4ED814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE98AC442B9AC51D8357F1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8218516D951F06056BCCB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9BEC90B9A79E1E48E987DE /* Ticker.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CF60D66D6783A8A087AAB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40D26923619B00B1069AE7B /* TickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D499BE50EAD252A9FCC5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1B3D652994EF0B914AD974 /* MeetingListView.swift in Sources */,
+				FBF1C4E172751F3301E8AAB7 /* PaywallView.swift in Sources */,
+				D00F373F9FD581C4CEC8CF11 /* PurchaseManager.swift in Sources */,
+				FFC37931D48DA3AC5E191D92 /* RootTabView.swift in Sources */,
+				AAC0EAF37BA1B9496CC44ED6 /* SettingsView.swift in Sources */,
+				36D7828A494D19D4588F2B99 /* Theme.swift in Sources */,
+				85F87D589E0A2728F73DE5D6 /* TickerApp.swift in Sources */,
+				8AFF3C67D290D7B870385375 /* TickerModels.swift in Sources */,
+				9B56F96EE7BF98D66FF7C1F7 /* TickerSheets.swift in Sources */,
+				72859B103109C745A3A42F85 /* TickerStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95405E247B179F2FDBF6B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F59D4867CFDD94F70D3151B /* TickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BA44B923433FFFEE86ED8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A4897054D6F5B363AAFAA7 /* Ticker */;
+			targetProxy = 32BCA58187B039D853A4A36D /* PBXContainerItemProxy */;
+		};
+		A547EB04CF4BE2D15517EC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A4897054D6F5B363AAFAA7 /* Ticker */;
+			targetProxy = D0BEC4173516E7BCD804AADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4884B1F028258DD73F662990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ticker.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ticker.app/Ticker";
+			};
+			name = Release;
+		};
+		66FEAD65F51FBB0D22ACB83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Ticker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ticker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6CCB6374249ECA7072DA1A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ticker.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ticker.app/Ticker";
+			};
+			name = Debug;
+		};
+		72D10DA8D21123B5DFA6BF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ticker.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Ticker;
+			};
+			name = Release;
+		};
+		9F2D135A8FAD0A4E3D507643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D64CE63EC565AEE9D5EECBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ticker.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Ticker;
+			};
+			name = Debug;
+		};
+		EEAD037C96E24A567D5BC32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Ticker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ticker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F393211104A7D250C3EC1DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E59AEFD9342E43E0F99F87E /* Build configuration list for PBXNativeTarget "TickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64CE63EC565AEE9D5EECBCF /* Debug */,
+				72D10DA8D21123B5DFA6BF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD55AC3D1AEA9AC857F24849 /* Build configuration list for PBXNativeTarget "Ticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FEAD65F51FBB0D22ACB83B /* Debug */,
+				EEAD037C96E24A567D5BC32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D3C63A8C80796F0DAEC4AA36 /* Build configuration list for PBXProject "Ticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2D135A8FAD0A4E3D507643 /* Debug */,
+				F393211104A7D250C3EC1DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E98E8BC2D4091490ED2F3F8F /* Build configuration list for PBXNativeTarget "TickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCB6374249ECA7072DA1A5A /* Debug */,
+				4884B1F028258DD73F662990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72639FAE940B1910E914C4A7 /* Project object */;
+}
